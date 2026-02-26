@@ -1,0 +1,42 @@
+name: smart_lab_
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10
+  mobile_scanner: ^3.5.0
+  intl: ^0.19.0
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # 🔵 App Icon Generator
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logofin.jpeg
+
+# 🔵 App Icon Configuration (MUST be outside flutter:)
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logofin.jpeg"
