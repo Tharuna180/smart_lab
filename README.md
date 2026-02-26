@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # smart_lab_
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# smart_lab
+>>>>>>> 5c1d103dca87ec6e52e287a8df676358c57cffdb
